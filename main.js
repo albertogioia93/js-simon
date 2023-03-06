@@ -23,4 +23,5 @@ for(let i = 0; i < 5; i++){
 // STAMPO IN CONSOLE L'ARRAY CREATO IN ALTO MA CHE AL SUO INTERNO HA I 5 NUMERI CASUALI CHE HO MESSO COL CICLO FOR. LUNGHEZZA CAMBIA, DA 0 A 5
 console.log(numericasuali);
 
-const numeriIndex = getElementById('num-casuali').innerHTML = numericasuali;
+// INSERISCO QUELL'ARRAY CON I 5 NUMERI CASUALI DENTRO IL DIV CREATO IN INDEX.HTML
+document.getElementById('num-casuali').innerHTML = numericasuali;
